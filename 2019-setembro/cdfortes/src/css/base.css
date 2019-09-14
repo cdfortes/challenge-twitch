@@ -1,0 +1,8 @@
+body {
+    font-family: "Fira Sans",
+        sans-serif;
+    background: url('/src/assets/background-principal.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 100px;
+}

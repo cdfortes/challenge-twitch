@@ -1,0 +1,16 @@
+.container {
+    max-width: 1110px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1mm solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
