@@ -1,6 +1,6 @@
 .keyboard {
     border-radius: 15px;
-    height: 400px;
+    height: 490px;
 
     background: linear-gradient(to bottom, #d9d2d2 30%, #f4f4f4 100%);
     box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.2),
@@ -12,15 +12,25 @@
 
 }
 
-.keyboard::before {
-    content: '';
-    height: 20px;
-    width: 50px;
-    background: #d9d2d2;
+.keyboard h2 {
+    text-align: center;
+
+    font-size: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    width: 30%;
+    float: right;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: rgb(4, 66, 4);
+    margin-top: -20px;
+    margin-right: -3px;
+    letter-spacing: 6px;
+    font-weight: 500;
 }
 
 .kb-wp {
     background: rgba(0, 0, 0, 0.226);
     border: 8px inset rgba(0, 0, 0, 0.4);
     width: 99%;
+    height: 90%;
 }
